@@ -1,0 +1,12 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .navbar{
+        display: flex;
+        justify-content:space-between;
+        
+    }
+    .bg-light-dark{
+        margin-top: 5rem;
+        margin-left:3rem;
+        margin-right:3rem;
+    }
+}
