@@ -27,7 +27,7 @@ const Register = () => {
             setError(error.response.data)
             setSuccess(false)
             console.error('Error during registration:', error.response.data)
-        }finally{
+        } finally {
             setLoading(false);
         }
 
@@ -69,10 +69,10 @@ const Register = () => {
                                 </div>
                             )}
 
-                            {loading ?(
+                            {loading ? (
                                 <button type="submit" className="btn btn-primary d-block mx-auto px-4" disabled>Please Wait..</button>
                             ) : (
-                                    <button type="submit" className="btn btn-primary d-block mx-auto px-4">Register</button>
+                                <button type="submit" className="btn btn-primary d-block mx-auto px-4">Register</button>
                             )}
                         </form>
 

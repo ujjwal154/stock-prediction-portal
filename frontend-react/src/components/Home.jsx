@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
           </h1>
           <p className='text-light lead'>A stock prediction app is an application that tries to predict future stock prices or market trends using historical data, technical indicators, news, or machine learning models.</p>
 
-          <a className='btn btn-outline-info' href=''>Login</a>
+          <Link className='btn btn-outline-info' to ='/login'>Login</Link>
           
 
         </div>
